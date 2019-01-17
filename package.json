@@ -1,0 +1,22 @@
+{
+  "name": "@uploadcare/uploader",
+  "version": "5.0.0-alpha.0",
+  "description": "Uploadcare Uploader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uploadcare/uploadcare-uploader.git"
+  },
+  "keywords": [
+    "uploadcare"
+  ],
+  "author": "Uploadcare Inc. <hello@uploadcare.com> (https://uploadcare.com)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/uploadcare/uploadcare-uploader/issues"
+  },
+  "homepage": "https://github.com/uploadcare/uploadcare-uploader#readme"
+}
