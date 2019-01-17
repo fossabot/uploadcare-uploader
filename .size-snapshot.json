@@ -1,0 +1,26 @@
+{
+  "dist/uploadcare-uploader.esm.js": {
+    "bundled": 172,
+    "minified": 22,
+    "gzipped": 42,
+    "treeshaked": {
+      "rollup": {
+        "code": 22,
+        "import_statements": 0
+      },
+      "webpack": {
+        "code": 993
+      }
+    }
+  },
+  "dist/uploadcare-uploader.cjs.js": {
+    "bundled": 187,
+    "minified": 35,
+    "gzipped": 55
+  },
+  "dist/uploadcare-uploader.js": {
+    "bundled": 308,
+    "minified": 114,
+    "gzipped": 110
+  }
+}
