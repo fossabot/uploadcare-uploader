@@ -6,10 +6,13 @@
          alt="">
 </a>
 
-New modern file uploader based on Uploadcare ecosystem will be here.
-Check out [Launch Roadmap][github-issue-1].
+This is a WIP repo of the next-generation file uploader based on the
+[Uploadcare platform][uc-home].
 
-Before release of Uploadcare Uploader, you can use [Uploadcare Widget][github-uc-widget].
+Check out the [Launch Roadmap][github-issue-1].
+
+Before the Uploadcare Uploader release, you can implement file uploads in
+production with [Uploadcare Widget][github-uc-widget].
 
 [![Uploadcare stack on StackShare][badge-stack-img]][badge-stack-url]
 
@@ -23,10 +26,10 @@ Before release of Uploadcare Uploader, you can use [Uploadcare Widget][github-uc
 ## Security issues
 
 If you think you ran into something in Uploadcare libraries which might have
-security implications, please hit us up at [bugbounty@uploadcare.com][uc-email-bounty]
-or Hackerone.
+security implications, drop us a line at
+[bugbounty@uploadcare.com][uc-email-bounty] or Hackerone.
 
-We'll contact you personally in a short time to fix an issue through co-op and
+We’ll contact you personally in a short time to fix an issue through co-op and
 prior to any public disclosure.
 
 ## Feedback
@@ -34,6 +37,7 @@ prior to any public disclosure.
 Issues and PRs are welcome. You can provide your feedback or drop us a support
 request at [hello@uploadcare.com][uc-email-hello].
 
+[uc-home]: https://uploadcare.com/?utm_source=github&utm_campaign=uploadcare-uploader
 [badge-stack-img]: https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat
 [badge-stack-url]: https://stackshare.io/uploadcare/stacks/
 [uc-email-bounty]: mailto:bugbounty@uploadcare.com
