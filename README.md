@@ -6,8 +6,8 @@
          alt="">
 </a>
 
-This is a WIP repo of the next-generation file uploader based on the
-[Uploadcare platform][uc-home].
+This is a repo of the next-generation file uploader based on the
+[Uploadcare platform][uc-home], a work in progress.
 
 Check out the [Launch Roadmap][github-issue-1].
 
