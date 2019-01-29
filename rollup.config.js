@@ -15,7 +15,7 @@ const onAnalysis = ({bundleSize}) => {
 
 const getPlugins = (format) =>
   [
-    babel(),
+    babel({extensions: ['.ts']}),
     license({
       banner: `
       <%= pkg.name %> <%= pkg.version %>
@@ -30,7 +30,7 @@ const getPlugins = (format) =>
 
 export default [
   {
-    input: 'src/index.js',
+    input: 'src/index.ts',
     plugins: getPlugins('esm'),
     output: [
       {
@@ -40,7 +40,7 @@ export default [
     ],
   },
   {
-    input: 'src/index.js',
+    input: 'src/index.ts',
     plugins: getPlugins('cjs'),
     output: [
       {
@@ -50,7 +50,7 @@ export default [
     ],
   },
   {
-    input: 'src/index.js',
+    input: 'src/index.ts',
     plugins: getPlugins('umd'),
     output: [
       {
