@@ -5,11 +5,11 @@
   "main": "dist/uploadcare-uploader.cjs.js",
   "module": "dist/uploadcare-uploader.esm.js",
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf dist demo/dist",
     "lint": "eslint .",
     "build:dev": "NODE_ENV=development rollup -c rollup.config.js --watch",
     "build": "NODE_ENV=production rollup -c rollup.config.js",
-    "start": "parcel ./demo/index.html",
+    "start": "parcel serve ./demo/index.html -d ./demo/dist",
     "dev": "run-p -lr build:dev start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
