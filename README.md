@@ -15,6 +15,7 @@ Before the Uploadcare Uploader release, you can implement file uploads in
 production with [Uploadcare Widget][github-uc-widget].
 
 [![Uploadcare stack on StackShare][badge-stack-img]][badge-stack-url]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fuploadcare%2Fuploadcare-uploader.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fuploadcare%2Fuploadcare-uploader?ref=badge_shield)
 
 <!-- toc -->
 
@@ -44,3 +45,7 @@ request at [hello@uploadcare.com][uc-email-hello].
 [uc-email-hello]: mailto:hello@uploadcare.com
 [github-issue-1]: https://github.com/uploadcare/uploadcare-uploader/issues/1
 [github-uc-widget]: https://github.com/uploadcare/uploadcare-widget
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fuploadcare%2Fuploadcare-uploader.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fuploadcare%2Fuploadcare-uploader?ref=badge_large)
